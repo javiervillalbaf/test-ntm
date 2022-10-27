@@ -118,69 +118,69 @@ p{
     display: block;
 }
 
-.line-two-active{
+.line-three-active{
     position: absolute;
     height: 5px;
-    width: 421px;
+    width: 189px;
     border-radius: 3px;
     background-color: #6ABA44;
-    top: 162px;
-    right: 249px;
-    display: block;
-}
-
-.line-two-active{
-    position: absolute;
-    height: 5px;
-    width: 421px;
-    border-radius: 3px;
-    background-color: #6ABA44;
-    top: 162px;
-    right: 249px;
+    top: 122px;
+    left: 251px;
     display: block;
 }
 
 .line-four-active{
     position: absolute;
-    height: 5px;
-    width: 421px;
+    width: 5px;
+    height: 45px;
     border-radius: 3px;
     background-color: #6ABA44;
-    top: 162px;
-    right: 249px;
+    top: 127px;
+    left: 511px;
+    display: block;
+}
+
+.line-four-active{
+    position: absolute;
+    width: 5px;
+    height: 63px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 127px;
+    left: 715px;
     display: block;
 }
 
 .line-five-active{
     position: absolute;
     height: 5px;
-    width: 421px;
+    width: 470px;
     border-radius: 3px;
     background-color: #6ABA44;
-    top: 162px;
-    right: 249px;
+    top: 54px;
+    right: 242px;
     display: block;
 }
 
 .line-six-active{
     position: absolute;
-    height: 5px;
-    width: 421px;
+    width: 5px;
+    height: 63px;
     border-radius: 3px;
     background-color: #6ABA44;
-    top: 162px;
-    right: 249px;
+    top: 127px;
+    left: 715px;
     display: block;
 }
 
 .line-seven-active{
     position: absolute;
     height: 5px;
-    width: 421px;
+    width: 176px;
     border-radius: 3px;
     background-color: #6ABA44;
-    top: 162px;
-    right: 249px;
+    top: 125px;
+    right: 241px;
     display: block;
 }
 
@@ -189,6 +189,60 @@ p{
 }
 
 .text-container-top-one{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+.text-container-top-two{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+.text-container-bot-one{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+.text-container-bot-two{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+.text-container-bot-three{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+.text-container-bot-four{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+.text-container-bot-five{
     position: absolute;
     top: 70px;
     width: 210px;

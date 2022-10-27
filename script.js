@@ -8,7 +8,13 @@ let circleFour = document.getElementById("circleFour");
 let circleFive = document.getElementById("circleFive");
 let circleSix = document.getElementById("circleSix");
 let circleSeven = document.getElementById("circleSeven");
-let containerOne = document.getElementById("containerOne");
+let containerTopOne = document.getElementById("containerTopOne");
+let containerTopTwo = document.getElementById("containerTopTwo");
+let containerBotOne = document.getElementById("containerBotOne");
+let containerBotTwo = document.getElementById("containerBotTwo");
+let containerBotThree = document.getElementById("containerBotThree");
+let containerBotFour = document.getElementById("containerBotFour");
+let containerBotFive = document.getElementById("containerBotFive");
 let lineOne = document.getElementById("lineOne");
 let lineTwo = document.getElementById("lineTwo");
 let lineThree = document.getElementById("lineThree");
@@ -18,7 +24,6 @@ let lineSix = document.getElementById("lineSix");
 let lineSeven = document.getElementById("lineSeven");
 
 btn.addEventListener("click", () => {
-  console.log("click");
   deviceDown.classList.toggle("inactive");
   deviceDown.classList.toggle("device-down");
   btn.classList.toggle("active");
@@ -31,9 +36,30 @@ btn.addEventListener("click", () => {
   circleSeven.classList.toggle("disable");
 });
 circleOne.addEventListener("click", () => {
-  containerOne.classList.toggle("container-active");
+  containerTopOne.classList.toggle("container-active");
   lineOne.classList.toggle("line-one-active");
 });
 circleTwo.addEventListener("click", () => {
+  containerTopTwo.classList.toggle("container-active");
   lineTwo.classList.toggle("line-two-active");
+});
+circleThree.addEventListener("click", () => {
+  containerBotOne.classList.toggle("container-active");
+  lineThree.classList.toggle("line-three-active");
+});
+circleFour.addEventListener("click", () => {
+  containerBotTwo.classList.toggle("container-active");
+  lineFour.classList.toggle("line-four-active");
+});
+circleFive.addEventListener("click", () => {
+  containerBotThree.classList.toggle("container-active");
+  lineFive.classList.toggle("line-five-active");
+});
+circleSix.addEventListener("click", () => {
+  containerBotFour.classList.toggle("container-active");
+  lineSix.classList.toggle("line-six-active");
+});
+circleSeven.addEventListener("click", () => {
+  containerBotFive.classList.toggle("container-active");
+  lineSeven.classList.toggle("line-seven-active");
 });
