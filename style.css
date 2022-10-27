@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .arrow{
@@ -48,4 +55,148 @@
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+.circle-three{
+    position: absolute;
+    top: 351px;
+    left: 165px;
+    cursor: pointer;
+}
+
+.circle-four{
+    position: absolute;
+    top: 351px;
+    left: 236px;
+    cursor: pointer;
+}
+
+.circle-five{
+    position: absolute;
+    top: 283px;
+    left: 291px;
+    cursor: pointer;
+}
+
+.circle-six{
+    position: absolute;
+    top: 351px;
+    left: 439px;
+    cursor: pointer;
+}
+
+.circle-seven{
+    position: absolute;
+    top: 351px;
+    left: 580px;
+    cursor: pointer;
+}
+
+.green-line{
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.line-one-active{
+    position: absolute;
+    height: 5px;
+    width: 150px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 165px;
+    left: -12px;
+    display: block;
+}
+
+.line-two-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.line-two-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.line-two-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.line-four-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.line-five-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.line-six-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.line-seven-active{
+    position: absolute;
+    height: 5px;
+    width: 421px;
+    border-radius: 3px;
+    background-color: #6ABA44;
+    top: 162px;
+    right: 249px;
+    display: block;
+}
+
+.container-active{
+    display: block;
+}
+
+.text-container-top-one{
+    position: absolute;
+    top: 70px;
+    width: 210px;
+    text-align: left;
+    left: 30px;
+    display: none;
+}
+
+
+
 
