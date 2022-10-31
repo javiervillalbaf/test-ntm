@@ -11,6 +11,10 @@ p{
     font-weight: 400;
 }
 
+.all-container-active{
+    margin-bottom: 240px;
+}
+
 .arrow{
     top: 10px;
     right: 600px;

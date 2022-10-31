@@ -8,51 +8,51 @@
     <title>TEST</title>
 </head>
 <body>
-    <div>
+    <div id="allContainer" class="all-container">
         <img id="btn" class="arrow" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/arrow.svg" alt="">
         <div>
             <img src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/device-front.svg" alt="">
             <img id="circleOne" class="circle-one disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
-            <div id="lineOne" class="green-line"></div>\
-            <div class="text-container-top-one" id="containerTopOne">
-                <h4>HDMI Input</h4>
-                <p>In addition to Solstice’s wireless sharing options, the Pod’s HDMI input enables sharing from wired content sources, such as guests that may not have network access.</p>
-            </div>
+            <div id="lineOne" class="green-line"></div>
             <img id="circleTwo" class="circle-two disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
             <div id="lineTwo" class="green-line"></div>
+            <div class="text-container-top-one" id="containerTopOne">
+                <h4>HDMI Input</h4>
+                <p class="device-text">In addition to Solstice’s wireless sharing options, the Pod’s HDMI input enables sharing from wired content sources, such as guests that may not have network access.</p>
+            </div>
             <div class="text-container-top-two" id="containerTopTwo">
                 <h4>USB-C</h4>
-                <p>The Pod’s front facing USB-C port will support future innovations.</p>
+                <p class="device-text">The Pod’s front facing USB-C port will support future innovations.</p>
             </div>
         </div>
         <div>
             <img id="deviceDown" class="device-down" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/device-back.svg" alt="">
             <img id="circleThree" class="circle-three disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
             <div id="lineThree" class="green-line"></div>
-            <div class="text-container-bot-one" id="containerBotOne">
-                <h4>Ethernet & Wireless</h4>
-                <p>Dual wired and wireless network interface cards provide ultimate flexibility for deploying Solstice on the host IT network(s) and separate routing tables ensure no traffic passes between networks.</p>
-            </div>
             <img id="circleFour" class="circle-four disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
             <div id="lineFour" class="green-line"></div>
-            <div class="text-container-bot-two" id="containerBotTwo">
-                <h4>Power Supply or POE+</h4>
-                <p>Power the Pod via POE+ or a dedicated power supply.</p>
-            </div>
             <img id="circleFive" class="circle-five disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
             <div id="lineFive" class="green-line"></div>
-            <div class="text-container-bot-three" id="containerBotThree">
-                <h4>Dual USB</h4>
-                <p>Room audio/video peripherals, HID touch displays, and local configuration changes are supported via the Pod dual USB ports.</p>
-            </div>
             <img id="circleSix" class="circle-six disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
             <div id="lineSix" class="green-line"></div>
+            <img id="circleSeven" class="circle-seven disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
+            <div id="lineSeven" class="green-line"></div>
+            <div class="text-container-bot-one" id="containerBotOne">
+                <h4>Ethernet & Wireless</h4>
+                <p class="device-text">Dual wired and wireless network interface cards provide ultimate flexibility for deploying Solstice on the host IT network(s) and separate routing tables ensure no traffic passes between networks.</p>
+            </div>
+            <div class="text-container-bot-two" id="containerBotTwo">
+                <h4>Power Supply or POE+</h4>
+                <p class="device-text">Power the Pod via POE+ or a dedicated power supply.</p>
+            </div>
+            <div class="text-container-bot-three" id="containerBotThree">
+                <h4>Dual USB</h4>
+                <p class="device-text">Room audio/video peripherals, HID touch displays, and local configuration changes are supported via the Pod dual USB ports.</p>
+            </div>
             <div class="text-container-bot-four" id="containerBotFour">
                 <h4>Stereo Out (3.5mm)</h4>
                 <p>Connect the Pod to room audio via the 3.5mm audio port.</p>
             </div>
-            <img id="circleSeven" class="circle-seven disable" src="https://mersiverevadev.wpengine.com/wp-content/themes/mersive/images/devices/green-point.svg" alt="">
-            <div id="lineSeven" class="green-line"></div>
             <div class="text-container-bot-five" id="containerBotFive">
                 <h4>Dual HDMI Outputs</h4>
                 <p>Drive a single 4k display or two 1080p displays with the Pod’s dual HDMI outputs.</p>
@@ -62,3 +62,27 @@
     <script src="./script.js"></script>
 </body>
 </html>
+<div class="dots-map">
+    <a class="dot-link" style="left: 79%; top: 35%;" href="#" data-drop="huddlespace" data-id="1">1</a><br>
+<a class="dot-link orange" style="left: 34%; top: 40%;" href="#" data-drop="huddlespace" data-id="2">2</a><br>
+<a class="dot-link blue" style="left: 45%; top: 55%;" href="#" data-drop="huddlespace" data-id="3">3</a><br>
+<a class="dot-link black" style="left: 88%; top: 0%;" href="#" data-drop="huddlespace" data-id="4">4</a></div>
+<style>
+     .dots-map .dot-link a{
+    position: absolute;
+    display: inline-block;
+    font-family: 'proxima-nova';
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.9rem;
+    width: 2.875rem;
+    height: 2.875rem;
+    color: #fff;
+    background: #6fbc44;
+    background: radial-gradient(circle, rgba(111,188,68,1) 45%, rgba(111,188,68,0.51) 48%, rgba(111,188,68,0.5) 60%, rgba(111,188,68,0.21) 61%, rgba(111,188,68,0.2) 100%);
+    text-align: center;
+    border-radius: 100%;
+    margin-left: -20px;
+    text-decoration: none;
+}
+</style>
